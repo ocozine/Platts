@@ -4,7 +4,7 @@ from projects.homework11.fruit_formal import get_formal_name
 #(part2 of hw)I ran this code but changed homework11.fruit_formal to homework11.fruit_formal_improved and one of my tests did not pass
 
 def test_valid_fruit():
-    #testing to make sure all these fruits are in the dictionary as well as their formal name
+    #testing to make sure all these fruits are in the dictionary as well as their formal name adsa 
     assert get_formal_name('apple') == 'Malus domestica'
     assert get_formal_name('banana') == 'Musa acuminata'
     assert get_formal_name('orange') == 'Citrus × sinensis'
