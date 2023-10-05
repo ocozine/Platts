@@ -1,6 +1,6 @@
 import pytest
 
-from projects.homework11.fruit_formal import get_formal_name 
+from suny485.projects.homework11.fruit_formal import get_formal_name 
 #(part2 of hw)I ran this code but changed homework11.fruit_formal to homework11.fruit_formal_improved and one of my tests did not pass
 
 def test_valid_fruit():
