@@ -6,7 +6,7 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 parent_directory = os.path.abspath(os.path.join(current_directory, "..", ".."))
 sys.path.append(parent_directory)
 
-from projects.homework10.fruit_query import is_it_a_fruit
+from suny485.projects.homework10.fruit_query import is_it_a_fruit
 
 def test_1():
     assert is_it_a_fruit('apple') == True
